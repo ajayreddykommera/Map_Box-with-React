@@ -17,7 +17,7 @@ const App = () => {
       setLat(Number(co_ordinates[0]));
       setLog(Number(co_ordinates[1]));
       console.log(co_ordinates);
-    }, 10000);
+    }, 5000);
   }, []);
   return (
     <>
